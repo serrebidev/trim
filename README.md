@@ -7,7 +7,7 @@
 Strips out ads, telemetry and preinstalled junk, tunes what's left for games,
 and shows you every change before it makes one.
 
-[![CI](https://img.shields.io/github/actions/workflow/status/Glexxy/trim/ci.yml?branch=main&style=flat-square&label=tests)](https://github.com/Glexxy/trim/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/serrebidev/trim/ci.yml?branch=main&style=flat-square&label=tests)](https://github.com/serrebidev/trim/actions/workflows/ci.yml)
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-4FE0B0?style=flat-square)](LICENSE)
 [![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-4FE0B0?style=flat-square)](#requirements)
 [![Reversible](https://img.shields.io/badge/every%20setting-reversible-4FE0B0?style=flat-square)](#undo)
@@ -141,7 +141,7 @@ have moved since it was published — check that commit out, or the hashes will
 differ for a reason nothing tells you about.
 
 ```powershell
-git clone https://github.com/Glexxy/trim
+git clone https://github.com/serrebidev/trim
 cd trim
 git checkout <commit>   # line 4 of trim.ps1: "Source: commit ..."
 .\build.ps1
